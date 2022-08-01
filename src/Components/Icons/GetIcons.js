@@ -1,33 +1,35 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {
-  FaFacebook,
-  FaLink,
   FaAndroid,
   FaApple,
+  FaArrowLeft,
+  FaBook,
+  FaDev,
   FaDiscord,
+  FaDollarSign,
+  FaEnvelope,
+  FaFacebook,
   FaGithub,
+  FaGitlab,
+  FaGlobe,
+  FaGraduationCap,
+  FaInstagram,
+  FaLaravel,
+  FaLink,
+  FaLinkedin,
   FaMicrosoft,
+  FaNodeJs,
   FaPaypal,
+  FaSearch,
   FaSlack,
+  FaSnapchat,
+  FaTelegram,
+  FaTiktok,
+  FaTwitch,
   FaTwitter,
   FaVimeo,
   FaYoutube,
-  FaEnvelope,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitch,
-  FaDev,
-  FaGlobe,
-  FaBook,
-  FaDollarSign,
-  FaGraduationCap,
-  FaTiktok,
-  FaArrowLeft,
-  FaSearch,
-  FaTelegram,
-  FaSnapchat,
-  FaGitlab,
 } from 'react-icons/fa'
 import {
   SiCodeforces,
@@ -77,6 +79,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <SiHashnode {...restProps} />
     case 'instagram':
       return <FaInstagram {...restProps} />
+    case 'laravel':
+      return <FaLaravel {...restProps} />
     case 'link':
       return <FaLink {...restProps} />
     case 'linkedin':
@@ -85,6 +89,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <SiMedium {...restProps} />
     case 'microsoft':
       return <FaMicrosoft {...restProps} />
+    case 'node-js':
+      return <FaNodeJs {...restProps} />
     case 'paypal':
       return <FaPaypal {...restProps} />
     case 'polywork':
